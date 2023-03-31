@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(225, 216, 219);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn-outline-success {
+    border-color: black;
+    color: black;
+}
+.col img {
+    height: 400px;
+    width: 300px;
+}
+
+h1 {
+    display: flex;
+   justify-content: center;
+   margin-top: 50px;
+  
+    animation-name: forward;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes forward {
+    from {left: 0px;}
+      to {left: 700px;} 
+      from {color: rgb(154, 91, 122);}
+      to{color: rgb(56, 59, 85);}
+  
+      }
+
+
+h6 {
+    padding: 60px;
+}
+
+
+.about-me {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.container {
+    background-color:rgb(209, 201, 209);
+    border: solid black;
+    border-width: .4px;
+    border-radius: 20px;
+    width: 700px;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+
+.card-body {
+    display: flex;
+    justify-content: center;
+}
+
+.contact {
+    height: 380px;
+    width: 650px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    font-size: 12px;
+
+}

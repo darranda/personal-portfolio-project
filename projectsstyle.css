@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(225, 216, 219);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn-outline-success {
+    border-color: black;
+    color: black;
+}
+.container {
+    padding-top: 40px;
+    font-weight: lighter;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+    padding:30px;
+    border-style: double black;
+    border-width: 5px;
+}
+
+h2 {
+  
+  animation-name: forward;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes forward {
+  from {left: 0px;}
+    to {left: 700px;} 
+    from {color: rgb(154, 91, 122);}
+    to{color: rgb(56, 59, 85);}
+
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        padding-top: 40px;
+        font-size: 12px;
+    
+    }
